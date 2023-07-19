@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!--Title to apear in the tab-->
+    <title>Register</title>
+
+    <!--link all css files -->
+<link href="css/experiment.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    
+  </head>
+  <body>
+    
+<!--HEADING + LOGO of website-->
+<header>
+  <img src="images/VR_Logo_Virtual_Reality_Logo.svg.png" class="logo"alt="logo" width="50" height="50" /><h1 class = "centered-heading">RGU VR</h1>
+</header>
+
+
+ <!--Horizontal navigation menu-->
+ <nav><ul>
+  <li><a href ="index.html">Home</a></li>
+  <li><a href ="img_gallery.html">Gallery</a></li>
+  <li><a href ="social.html">Social Media</a></li>
+  <li><a href ="event_calender.html">Events</a></li>
+  <li><a href="register.html">Register</a></li>
+</ul>
+</nav>
+
+
+<main>
+  <!--creating form for user to input data-->
+
+  <form id="myForm">
+    <fieldset>
+        <legend>Register to become a memeber below</legend>
+
+        <label for="Email">Email</label>
+        <input type="text" name="email" value=""/><br/>
+
+        <label for="status">Recieve Notifications</label>
+        <input type="checkbox" name="Status" value=""/>
+        <label for="non">Don't Recieve Notifications </label>
+        <input type="checkbox" name="non" value=""/><br/>
+        
+        <label for="details">Password</label>
+        <input type="password" name="details" value=""/><br/>
+
+      <label for="files">Upload Profile Picture</label>
+      <input type="file" name="file" value=""/><br/>
+
+      <input type="submit" value="Submit" id="submitButton">
+    </form>
+    <div id="feedback"></div>
+    <script src="scripts/scripts.js"></script>
+    </fieldset>
+</main>
+
+
+
+</body>
+
+<footer><p>COPYRIGHT Ciaran Uttley</p></footer>
+

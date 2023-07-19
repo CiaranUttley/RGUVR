@@ -1,0 +1,272 @@
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    }
+
+
+
+/*styling for html tags*/
+
+
+header {
+    background-color: rgb(184, 131, 234);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+    color: rgb(0, 0, 0);
+    position: ;
+}
+
+h2, h3, h4, h5 { 
+    font-family: "Raleway", sans-serif;
+    
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+main {
+  flex-grow: 1;
+}
+
+form {
+  margin-bottom: auto;
+}
+
+
+
+/*css for the navigation menu*/
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: 0px;
+    
+}
+
+nav li {
+    border: 2px;
+    background-color: rgb(184, 131, 234);
+    list-style-type: none;
+    border-color: purple;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    display: block;
+}
+
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color:rgb(163, 89, 247);
+
+}
+
+
+/*Table styling*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+table tr:hover{
+    background-color: rgb(184, 131, 234);
+}
+
+table tr:nth-child(even) {
+    background-color: #c5c3c3;
+
+ 
+}
+table tr{
+    background-color: #F2F2F2;
+}
+
+
+table th{
+    background-color: rgb(15, 14, 16);
+    color: white;
+    border-color: rgb(184, 131, 234);
+}
+
+table td{
+    border-color: violet;
+    border: 2px;
+}
+
+
+/*generic styling for the page*/
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+  
+
+}
+
+
+/*styling for the footer*/
+footer {
+        
+  bottom: 9px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(184, 131, 234);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*form styling*/
+
+    
+input[type=text] {
+    border: 1px solid rgb(184, 131, 234);
+    border-radius: 2px;
+    margin: 8px 0;
+    
+}
+
+input[type=password] {
+    border: 1px solid rgb(184, 131, 234);
+    border-radius: 2px;
+    margin: 8px 0;
+    
+}
+
+
+
+
+
+
+
+
+/*Styling for classes*/
+
+
+
+.hover-effect:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+
+}
+
+  
+.gallery-img {
+  height: 300px;
+  width: 300px;
+  
+}
+
+
+/*classes for alignment*/
+  .centered-heading {
+    text-align: center;
+  }
+  
+
+
+  .two-column-section {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 70%;
+    border-radius: 3px;
+  }
+  
+  .right-column {
+    flex: 30%; 
+    background-color: rgb(211, 188, 232);
+    border-radius: 3px;
+  }
+  
+
+
+  .logo {
+    border-radius: 50px;
+    float: left;
+}
+
+/*navigation menu styling*/
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+
+
+
+/*styling for form submission*/
+
+#submitButton {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px 20px;
+  border: none; 
+  margin-top: 10px;
+}
+
+#submitButton:hover {
+  background-color: #ccc;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#feedback {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 500;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: green;
+  
+}
+
