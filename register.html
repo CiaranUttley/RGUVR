@@ -51,13 +51,19 @@
       <input type="file" name="file" value=""/><br/>
 
       <input type="submit" value="Submit" id="submitButton">
-    </form>
-    <div id="feedback"></div>
     
+    
+    
+  </form>
+    <div id="feedback"></div>
+    <!--link java script for submit button-->
     <script src="scripts/scripts.js"></script>
     
     </fieldset>
-</main>
+
+  </main>
+
+
 
 
 
@@ -67,9 +73,20 @@ Threat Model
 Threat Source: External
 Threat Agent: Human
 Threat Intention: Intentional
-Threat Motivation: Rival Corparation
+Threat Motivation: Rival Corparation "aberbean"
 Threat Impact: Defacement of RGU VR website, stealing of information such as emails, pictures of users and passwords, possible identify theft of members. Possible SQL injections if form was linked to a database
-Threat Mitigation: 2 factor authentication log-in
+Threat Mitigation: 2 factor authentication log-in, SQL injection prevention methods eg. only allowing certain characters.
+-->
+
+
+<!--
+  Threat Model
+Threat Source: internal
+Threat Agent: software
+Threat Intention: Unintentional
+Threat Motivation: -
+Threat Impact: blank forms could be submitted as there is no validation required at the moment in order for someone to submit a form
+Threat Mitigation: add a validation script that checks to see if at least the password and email fields are filled in
 -->
 
 

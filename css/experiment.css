@@ -21,7 +21,7 @@ header {
 h1{
     font-family: "Raleway", sans-serif;
     color: rgb(0, 0, 0);
-    position: ;
+    
 }
 
 h2, h3, h4, h5 { 
@@ -167,7 +167,7 @@ input[type=password] {
 /*Styling for classes*/
 
 
-
+/*makes images pop out on hover*/
 .hover-effect:hover {
   opacity: 0.8;
   transform: scale(1.1);
@@ -215,7 +215,7 @@ input[type=password] {
     float: left;
 }
 
-/*navigation menu styling*/
+/*navigation menu class styling*/
 
 .navbar {
   display: flex;
