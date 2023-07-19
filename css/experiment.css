@@ -202,8 +202,12 @@ input[type=password] {
     flex: 30%; 
     background-color: rgb(211, 188, 232);
     border-radius: 3px;
+   
   }
   
+  .longrightcolumn {
+    height:1500px;
+  }
 
 
   .logo {
