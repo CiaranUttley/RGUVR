@@ -37,7 +37,7 @@
         <legend>Register to become a memeber below</legend>
 
         <label for="Email">Email</label>
-        <input type="text" name="email" value=""/><br/>
+        <input type="text" name="email" value="" required/><br/>
 
         <label for="status">Recieve Notifications</label>
         <input type="checkbox" name="Status" value=""/>
@@ -45,7 +45,7 @@
         <input type="checkbox" name="non" value=""/><br/>
         
         <label for="details">Password</label>
-        <input type="password" name="details" value=""/><br/>
+        <input type="password" name="details" value="" required/><br/>
 
       <label for="files">Upload Profile Picture</label>
       <input type="file" name="file" value=""/><br/>
@@ -58,6 +58,7 @@
     <div id="feedback"></div>
     <!--link java script for submit button-->
     <script src="scripts/scripts.js"></script>
+   
     
     </fieldset>
 
@@ -85,7 +86,7 @@ Threat Source: internal
 Threat Agent: software
 Threat Intention: Unintentional
 Threat Motivation: -
-Threat Impact: blank forms could be submitted as there is no validation required at the moment in order for someone to submit a form
+Threat Impact: blank forms could be submitted as there is no validation required at the moment in order for someone to submit a form (***FIXED***)
 Threat Mitigation: add a validation script that checks to see if at least the password and email fields are filled in
 -->
 
